@@ -2,13 +2,13 @@
 
 @import "default";
 
-/* section{
-    width: 100%;
-    height: 100%;
-} */
+section{
+    width: 1000px;
+    height: 700px;
+}
 
 section::after{
-    content: url(./img/aquatan_gray_icon.png) ' 'attr(data-marpit-pagination)
+    content: url(./img/aquatan_gray_icon.png)'SEL@KIT'attr(data-marpit-pagination)
 }
 
 section.top{
@@ -77,20 +77,23 @@ section.normal h1{
     line-height: 200%;
 }
 
-section.normal ul li{
+section.normal ul>li{
     list-style-type: none;
 }
 
-section.normal ul li::before{
+section.normal ul>li::before{
     content:"◯ ";
 }
 
-section.normal ul li ul li::before{
+section.normal ul>li>ul>li::before{
     content:"● ";
 }
 
-section.normal ul li ul li ul li::before{
+section.normal ul>li>ul>li>ul>li::before{
     content:"◆ ";
 }
 
+section.normal ol>li{
+    list-style-type: decimal;
+}
 

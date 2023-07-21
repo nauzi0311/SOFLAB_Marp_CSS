@@ -5,26 +5,21 @@ theme : aquatan
 math: mathjax
 class: normal
 ---
-<!-- 
+
+<!--
 _class: top
 -->
-# ちょっとだけMarp
-## Nauzi@あくあたん工房
 
----
-<!--
-_class: title_light
--->
+# Marpの使い方
+## t-tanimot@そふらぼ
 
-
-# .pptxとか<br>.keyとか<br>やめません？
 
 ---
 
 # 書き方
 
-- マークダウンで資料が作れるよ
-- 例えばこのページは下のように書けるよ．
+- マークダウンで資料が作れる
+- 例えばこのページは下のように書ける．
 
 ```md
 
@@ -41,14 +36,14 @@ _class: title_light
 _class: title_dark
 -->
 
-# こんなページも作れるよ
+# こんなページも作れる
 
 ---
 <!--
 _class: title_light
 -->
 
-# こんなページも作れるよ
+# こんなページも作れる
 
 ---
 
@@ -61,37 +56,26 @@ _class: title_light
     - \*イタリック\*
 - ***太字イタリック***
     - \*\*\*太字イタリック\*\*\*
-- -取り消し線-
-    - \-\-取り消し線\-\-
+- ~~取り消し線~~
+    - \~\~取り消し線\~\~
 
 ---
 
 # 文字装飾
 
 - HTMLとして処理されるから，色も付けられるよ．
-- <span style="color: red; ">赤色</span>
+- <span style="color:red; ">赤色</span>
     - \<span style="color: red; ">赤色\</span>
 - 順序つきの箇条書きもできるよ
-1.ようこそ
-2.あくあたん
-3.工房へ
+    1. ようこそ
+        1. ソフトウェア
+            1. 工学研究所へ．
 
 ---
-<style scoped>
-section{
-    background:#c8d2e3;
-    align-item:center;
-}
 
-section h2{
-    position:float;
-    text-align:center;
-    justify-content: center;
-}
-
-</style>
-
-## 一部分だけスタイルを変えることもできるよ．
+# 画像
+- パスで指定することで、画像を配置できる
+![h:120px](./img/aquatan_gray.png)
 
 ---
 # 画像加工
