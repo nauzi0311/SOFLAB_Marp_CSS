@@ -1,0 +1,96 @@
+/* @theme aquatan */
+
+@import "default";
+
+/* section{
+    width: 100%;
+    height: 100%;
+} */
+
+section::after{
+    content: url(./img/aquatan_gray_icon.png) ' 'attr(data-marpit-pagination)
+}
+
+section.top{
+    background: #3f455c;
+    align-items: center;
+    justify-content: center;
+    color: #ECECEC;
+}
+
+section.top h1{
+    color: #ECECEC;
+    text-align: center;
+}
+
+section.title_dark{
+    background: #3f455c;
+    text-align: center;
+}
+
+section.title_dark h1{
+    color: #ececec;
+    font-size: 350%;
+}
+
+section.title_light{
+    background: #ececec;
+    text-align: center;
+}
+
+section.title_light h1{
+    color: black;
+    font-size: 350%;
+}
+
+section.top h2 {
+    position: absolute;
+    height :35%;
+    width: 100%;
+    color: black;
+    text-align: center;
+    background: #ececec;
+    padding-left: 7%;
+    padding-right: 7%;
+    bottom: 0%;
+}
+
+section.normal{
+    background: #ececec;
+    align-items: left;
+    justify-content: left;
+    color: black;
+    font-size: 32px;
+    padding-top:15%
+}
+
+section.normal h1{
+    background: #3f455c;
+    color: #ececec;
+    width: 120%;
+    height: 15%;
+    position: absolute;
+    top: 0%;
+    left: -2%;
+    padding-left: 7%;
+    padding-bottom: 0%;
+    line-height: 200%;
+}
+
+section.normal ul li{
+    list-style-type: none;
+}
+
+section.normal ul li::before{
+    content:"◯ ";
+}
+
+section.normal ul li ul li::before{
+    content:"● ";
+}
+
+section.normal ul li ul li ul li::before{
+    content:"◆ ";
+}
+
+
