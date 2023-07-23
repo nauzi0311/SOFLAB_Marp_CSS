@@ -31,6 +31,17 @@ _class: top
 ```
 
 ---
+# 環境構築
+1. VSCode拡張機能で**Marp for VS Code**をインストール
+1. 設定から*marp:theme*に *./theme/aquatan.css*を追加
+1. *tutorial.md*を開く
+1. Edit in VSCode(Full)をクリック
+![](./img/head_bar.png)
+1. 右上からプレビューを開く
+![](./img/preview.png)
+
+
+---
 
 <!-- 
 _class: title_dark
